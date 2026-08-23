@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "assetVersion": "2026.08.23.1",
+  "repository": "https://github.com/ysrg2003/quran-memorization-assets",
+  "rawBaseUrl": "https://raw.githubusercontent.com/ysrg2003/quran-memorization-assets/main",
+  "quranText": {
+    "path": "quran/quran_content.json",
+    "url": "https://raw.githubusercontent.com/ysrg2003/quran-memorization-assets/main/quran/quran_content.json"
+  },
+  "timings": {
+    "reciter": "Alafasy_128kbps",
+    "path": "timings/Alafasy_128kbps.json",
+    "url": "https://raw.githubusercontent.com/ysrg2003/quran-memorization-assets/main/timings/Alafasy_128kbps.json"
+  },
+  "audio": {
+    "reciter": "Alafasy_128kbps",
+    "pathTemplate": "audio/Alafasy_128kbps/{surah:03d}{ayah:03d}.mp3",
+    "urlTemplate": "https://raw.githubusercontent.com/ysrg2003/quran-memorization-assets/main/audio/Alafasy_128kbps/{surah:03d}{ayah:03d}.mp3",
+    "ayahCount": 6236,
+    "bytes": 1706672026
+  },
+  "model": {
+    "name": "fastconformer-quran-ar-onnx-int8",
+    "version": "pinned-in-release",
+    "downloadMode": "github-release",
+    "releaseUrl": "https://github.com/ysrg2003/quran-memorization-assets/releases/latest"
+  },
+  "modes": {
+    "stream": "read individual text/timing/audio assets over HTTPS without persistent storage",
+    "download": "download selected assets into app-private storage with checksum verification",
+    "local": "reuse downloaded assets without network"
+  }
+}
